@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Profile Box -->
+        <div class="boxProfile">
+            <!-- Gif Header -->
+            <img class="gifHeader" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDJuemdkenBxdWF6c2JhNXYxNTNxMGFucnRwbHYwbTIzemE4b3d6MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tMIBHiuvZP23EGUQbt/giphy.webp" alt="">
+            <!-- Dropdown Menu -->
+            <h2>What account action would you like to take?</h2>
+            <select id="dropdown">
+                <option value="viewFriends">View Your Friends-list</option>
+                <option value="changeUsername">Change Username</option>
+                <option value="resetPassword">Reset Password</option>
+                <option value="deleteAccount">Delete Your Account</option>
+            </select>
+            <!-- Password Form -->
+            <form class="formPassword">
+                <label for="password">If you would like to edit your account info, please re-enter your password:</label><br><br>
+                <input type="text" id="password" placeholder="Re-enter password here">
+            </form>
+            <!-- Links -->
+            <h3 class="index"><a href="/index.html">Return to Login Screen</a></h3>
+            <h3 class="about"><a href="/about.html">About Our Company</a></h3>
+        </div>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
